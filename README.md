@@ -6,6 +6,14 @@ Mayer, Mora, Rivoire, Walczak : [Diversity of immune strategies explained by ada
 
 It allows reproduction of all numerical results reported in the manuscript.
 
+## Quick-start: Follow these links to see the analysis code producing the figures
+
+- [Figure 2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/fig2/figure2.ipynb)
+- [Figure S1](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIopt/figure-SIopt.ipynb)
+- [Figure S2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIaltphases/figure-SIaltphases.ipynb)
+- [Figure S3](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIevol/figure-SIevol.ipynb)
+- [Figure S4](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSInonfactorizing/figure-SInonfactorizing.ipynb)
+
 ## Installation requirements
 
 The code uses Python 2.7+.
@@ -35,6 +43,8 @@ The time stepping of the population dynamics is accelerated by a Cython module, 
 ## Remarks
 
 In the code we use the following simplified notations `c_constitutive = mu1, c_defense = mu2, c_infection = lambda_, c_uptake = cup` and we define the tradeoff `c_defense(c_constitutive)` as a parametric function of a parameter `epsilon` in [0, 1], where 0 corresponds to fully constitutive and 1 to maximally regulated responses.
+
+Note: As the simulations are stochastic you generally will not get precisely equivalent plots.
 
 ## Contact
 
