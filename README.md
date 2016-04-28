@@ -32,7 +32,7 @@ Additionally the code also relies on these packages:
 - [scipydirect](http://github.com/andim/scipydirect/)
 - [noisyopt](http://github.com/andim/noisyopt)
 
-And optionnaly for nicer progress output install:
+And optionally for nicer progress output install:
 
 - [pyprind](http://github.com/rasbt/pyprind)
 
@@ -42,7 +42,7 @@ The time stepping of the population dynamics is accelerated by a Cython module, 
 
 ## Remarks
 
-In the code we use the following simplified notations `c_constitutive = mu1, c_defense = mu2, c_infection = lambda_, c_uptake = cup` and we define the tradeoff `c_defense(c_constitutive)` as a parametric function of a parameter `epsilon` in [0, 1], where 0 corresponds to fully constitutive and 1 to maximally regulated responses.
+In the code we use the following simplified notations `c_constitutive = mu1, c_defense = mu2, c_infection = lambda_, c_uptake = cup` and we define the trade-off `c_defense(c_constitutive)` as a parametric function of a parameter `epsilon` in [0, 1], where 0 corresponds to fully constitutive and 1 to maximally regulated responses.
 
 Note: As the simulations are stochastic you generally will not get precisely equivalent plots.
 
