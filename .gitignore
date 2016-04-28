@@ -58,3 +58,6 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#Generated figures
+*.pdf

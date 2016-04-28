@@ -1,0 +1,64 @@
+# .15 = dark_gray
+# .8 = light_gray
+
+figure.facecolor: white
+figure.figsize: 6.4, 4.4
+
+text.color: .15
+text.usetex: True
+text.latex.preamble: \usepackage{color}, \usepackage{amsmath}, \usepackage{bm}
+
+image.cmap: Greys
+font.family: serif
+font.serif: cm
+font.sans-serif: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+font.size: 9
+
+# axes
+axes.grid: False
+axes.facecolor: white
+axes.labelcolor: .15
+axes.labelpad: 3.0
+axes.edgecolor: .15
+axes.linewidth: 1.0
+axes.axisbelow: True
+axes.labelsize: medium
+axes.titlesize: large
+
+# ticks
+xtick.direction: out
+ytick.direction: out
+xtick.color: .15
+ytick.color: .15
+xtick.major.pad: 3.0
+ytick.major.pad: 3.0
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.minor.width: 0.4
+ytick.minor.width: 0.4
+xtick.labelsize: small
+ytick.labelsize: small
+
+# legend
+legend.fontsize: medium
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+# grid
+grid.linewidth: 0.8
+grid.color: .8
+grid.linestyle: -
+
+# lines
+lines.linewidth: 1.4
+lines.markersize: 5.6
+lines.markeredgewidth: 0.8
+lines.solid_capstyle: round
+
+# patches
+patch.linewidth: 0.8

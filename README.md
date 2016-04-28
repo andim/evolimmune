@@ -28,6 +28,10 @@ And optionnaly for nicer progress output install:
 
 - [pyprind](http://github.com/rasbt/pyprind)
 
+## Running the code
+
+The time stepping of the population dynamics is accelerated by a Cython module, which needs to be compiled first. To compile it run `make cython` in the `lib` directory. In the directories for the different figures launch `make run` followed by `make agg` to produce the underlying data. Please copy the `paper.mplstyle` to your custom matplotlib style directory (likely `.config/matplotlib/stylelib/`). We provide both Jupyter notebooks with additional explanatory comments and plain python files for generating the figures.
+
 ## Remarks
 
 In the code we use the following simplified notations `c_constitutive = mu1, c_defense = mu2, c_infection = lambda_, c_uptake = cup` and we define the tradeoff `c_defense(c_constitutive)` as a parametric function of a parameter `epsilon` in [0, 1], where 0 corresponds to fully constitutive and 1 to maximally regulated responses.

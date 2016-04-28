@@ -15,10 +15,10 @@ cups = '0.1*pup+pup**2'
 niter = 1e6
 nburnin = 1e4
 # first stage numerical parameters
-maxfs = 50#000
+maxfs = 10000
 # second stage numerical parameters
 deltainit = 0.02
-deltatols = 0.005#0.0005
+deltatols = 0.005
 alpha = 0.005
 feps = 1e-9
 # script parameters
