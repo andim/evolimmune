@@ -2,7 +2,7 @@
 
 This repository contains the source code associated with the manuscript
 
-Mayer, Mora, Rivoire, Walczak : [Diversity of immune strategies explained by adaptation to pathogen statistics](http://dx.doi.org/10.1101/033159), bioRxiv 2015
+Mayer, Mora, Rivoire, Walczak : [Diversity of immune strategies explained by adaptation to pathogen statistics](http://dx.doi.org/10.1073/pnas.1600663113), PNAS 2016
 
 It allows reproduction of all numerical results reported in the manuscript.
 
@@ -10,9 +10,9 @@ It allows reproduction of all numerical results reported in the manuscript.
 
 - [Figure 2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/fig2/figure2.ipynb)
 - [Figure S1](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIopt/figure-SIopt.ipynb)
-- [Figure S2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIaltphases/figure-SIaltphases.ipynb)
-- [Figure S3](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIevol/figure-SIevol.ipynb)
-- [Figure S4](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSInonfactorizing/figure-SInonfactorizing.ipynb)
+- [Figure S2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSInonfactorizing/figure-SInonfactorizing.ipynb)
+- [Figure S3](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIaltphases/figure-SIaltphases.ipynb)
+- [Figure S4](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/figSIevol/figure-SIevol.ipynb)
 
 ## Installation requirements
 

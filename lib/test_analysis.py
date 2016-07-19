@@ -48,5 +48,4 @@ def test_polygon_from_boundary():
 
 
 if __name__ == '__main__':
-    test_polygon_from_boundary()
     npt.run_module_suite()
