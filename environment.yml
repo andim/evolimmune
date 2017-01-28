@@ -1,0 +1,13 @@
+name: evolimmune
+dependencies:
+    - python=2.7
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib=1.5.*
+    - shapely
+    - pip:
+        - palettable
+        - scipydirect
+        - noisyopt
+   
