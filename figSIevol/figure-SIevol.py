@@ -118,6 +118,7 @@ plotting.label_axes(axes[0, :], labels=[(varname_to_tex['pienv'][1:-1] + r'\, = 
                     verticalalignment='top', horizontalalignment='center')
 fig.tight_layout(h_pad=1.5, w_pad=1.0, rect=(0.0, 0.0, 1.0, 0.87), pad=0.25)
 fig.savefig('SIevol.pdf')
+fig.savefig('SIevol.svg')
 
 
 # **Influence of finite population size on optimal immune strategies from an agent-based simulation with evolving strategy parameters (switching rates and degree of adaptability) as described in the text.**

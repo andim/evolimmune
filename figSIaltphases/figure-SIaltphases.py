@@ -157,6 +157,7 @@ label_axes = [ax for i, ax in sorted(label_axes)]
 plotting.label_axes(label_axes, xy=(-0.6, 1.0), fontsize='large', va='top')
 gsglobal.tight_layout(fig, h_pad=1.0, w_pad=2.0)
 fig.savefig('SIaltphases.pdf')
+fig.savefig('SIaltphases.svg')
 
 
 # Fig.S2: **Influence of parameter choice on the phase diagram presented in Fig. 2.**

@@ -102,6 +102,7 @@ for ax in axesgrid[-1, :]:
     ax.set_xlabel('frequency $\pi_{env}$')
 fig.tight_layout(pad=0.25)
 fig.savefig('SIopt.pdf')
+fig.savefig('SIopt.svg')
 
 
 # **Optimal parameters from a global optimization of long-term growth rate.** Regions where a parameter is unconstrained at the optimum are shown in purple. Phase boundaries pertaining to the shown parameter in white. A maximum number of 10000 function evaluations is used for the first phase of the optimization. The same model parameters as in Fig. 2 are used.

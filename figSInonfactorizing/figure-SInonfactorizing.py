@@ -104,6 +104,7 @@ def plot_pcov(ps):
 fig = plot_pcov(ps)
 plotting.label_axes(fig, xy=(-0.15, 0.97))
 fig.savefig('SIniinfection.pdf')
+fig.savefig('SIniinfection.svg')
 
 
 # **Optimal protection strategy against two equally frequent pathogens $\pi_{\rm env, 1} = \pi_{\rm env, 2} = 0.4$ as a function of the degree of non-additivity of the cost of infection $\nu$.**

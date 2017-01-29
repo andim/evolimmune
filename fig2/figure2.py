@@ -378,6 +378,7 @@ axtau.text(0.63, 1.0, r'\textbf{E}',
          transform=transforms.blended_transform_factory(fig.transFigure, axtau.transAxes),
          **subfiglabelkwargs)
 
+fig.savefig('figure2.pdf')
 fig.savefig('figure2.svg')
 
 
