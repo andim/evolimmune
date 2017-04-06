@@ -6,6 +6,8 @@ Mayer, Mora, Rivoire, Walczak : [Diversity of immune strategies explained by ada
 
 It allows reproduction of all numerical results reported in the manuscript.
 
+[![DOI](https://zenodo.org/badge/57219749.svg)](https://zenodo.org/badge/latestdoi/57219749)
+
 ## Quick-start: Follow these links to see the analysis code producing the figures
 
 - [Figure 2](http://nbviewer.jupyter.org/github/andim/evolimmune/blob/master/fig2/figure2.ipynb)
