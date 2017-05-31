@@ -50,7 +50,7 @@ Note: As the simulations are stochastic you generally will not get precisely equ
 
 ## Contact
 
-If you run into any difficulties running the code, feel free to contact us at `andisspam@gmail.com`.
+If you run into any difficulties running the code, feel free to contact us at `andimscience@gmail.com`.
 
 ## License
 
