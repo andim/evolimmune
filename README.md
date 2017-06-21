@@ -54,4 +54,4 @@ If you run into any difficulties running the code, feel free to contact us at `a
 
 ## License
 
-The source code is freely available under an MIT license.
+The source code is freely available under an MIT license. The plots are licensed under a Creative commons attributions license (CC-BY).
